@@ -1,12 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html ng-app='BandApp'>
 <head>
 	<title>Band App</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
 	<script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+	<script type="text/javascript" src="bower_components/a0-angular-storage/dist/angular-storage.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<h1>Welcome to my Band App!</h1>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>                        
+      			</button>
+				<a href="#" class="navbar-brand">The Monkees!</a>
+				<p class="navbar-text">Welcome to the unofficial Monkees Fansite</p>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#/">Home</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Media <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#/media/theband">The Band</a></li>
+						<li><a href="#/media/audio">Audio</a></li>
+						<li><a href="#/media/video">Video</a></li>
+					</ul>
+				</li>
+			</ul>
+			
+					<ul class="nav navbar-nav navbar-right">
+					    <li><a href="#/signup"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+					    <li><a href="#/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+					</ul>
+			</div>
+		</div>
+	</nav>
+	<div ng-view>
+		
+	</div>
 </body>
+<script src='js/app.js'></script>
+<script src='js/controller.js'></script>
+<script src='js/service.js'></script>
+<script src='js/directive.js'></script>
 </html>
