@@ -6,8 +6,19 @@ angular.module('BandApp').config(function($routeProvider) {
 		templateUrl: 'templates/home.html',
 		controller: 'HomeController'
 	})
-	.when('/accounts/register', {
-		templateUrl: 'templates/regsiter.html',
-		controller: 'RegisterController'
+	.when('/media/theband', {
+		templateUrl: 'templates/theband.html',
+	})
+	.when('/media/audio', {
+		templateUrl: 'templates/audio.html'
+	})
+	.when('/media/video', {
+		templateUrl: 'templates/video.html'
+	})
+	.when('/signup', {
+		templateUrl: 'templates/signup.html'
+	})
+	.when('/login', {
+		templateUrl: 'templates/login.html'
 	});
 });
