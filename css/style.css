@@ -17,6 +17,11 @@ body {
 	margin-bottom: 60px;
 		}
 
+.container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 h1 {
 	color: #5E0545;
@@ -44,21 +49,21 @@ h3#signupHeader {
 }
 
 div.c-wrapper{
-    width: 80%; /* for example */
+    width: 80%;
     margin: auto;
 }
 
 .carousel-inner > .item > img, 
 .carousel-inner > .item > a > img{
-	height: 25em;
+	height: 50%;
 	width: 60%;
 	margin: auto;
 }
 
 #banner {
 	margin-top: -1em;
-	height: 150px;
-	width: 900px;
+	height: 60%;
+	width: 100%;
 }
 
 #LizPic1 {
@@ -69,10 +74,6 @@ div.c-wrapper{
 
 .bioText {
 	float: right;
-}
-
-.container {
-	max-width: 56.25em;
 }
 
 .supporting-4 {
@@ -276,8 +277,8 @@ body {
   position: fixed;
   bottom: 0;
   padding-top: 5px;
-  min-width: 900px;
-  height: 60px;
+  width: 56.45%;
+  height: 7%;
   background-color: #000;
   opacity: .9;
 }
