@@ -1,28 +1,28 @@
 <div>
 	<div class="container">
-		<h3 id="registerHeader">Register to access exclusive content:</h3>
+		<h3 id="signupHeader">Register to access exclusive content:</h3>
 		<div class="row">
 			<div class="col-sm-6">
 			
 			<br />
-				<form name="registrationForm" ng-submit="submitForm()" novalidate>
+				<form name="signupForm" ng-submit="submitForm()" novalidate>
 					<div class="form-group">
 						<label>Username</label>
 						<input type="text" name="name" class="form-control" ng-model="user.username" required>
-						<p ng-show="registrationForm.name.$pristine" class="help-block">Please enter a Username</p>
+						<p ng-show="signupForm.name.$pristine" class="help-block">Please enter a Username</p>
 					</div>
 					<div class="form-group">
 						<label>Password</label>
 						<input type="password" name="password" class="form-control" ng-model="user.password" required>
-						<p ng-show="registrationForm.name.$pristine" class="help-block">Please enter password</p>
+						<p ng-show="signupForm.name.$pristine" class="help-block">Please enter password</p>
 					</div>
 					<div class="form-group">
 						<label>E-mail</label>
 						<input type="email" name="email" class="form-control" ng-model="user.email" required>
-						<p ng-show="registrationForm.name.$pristine" class="help-block">A valid e-mail address is required</p>
+						<p ng-show="signupForm.name.$pristine" class="help-block">A valid e-mail address is required</p>
 					</div>
 
-					<button type="submit" class="btn btn-primary" ng-disabled="registrationForm.$invalid">Submit</button>
+					<button type="submit" class="btn btn-primary" ng-disabled="signupForm.$invalid">Submit</button>
 				</form>
 			</div>
 		</div>

@@ -16,7 +16,7 @@ angular.module('BandApp').config(function($routeProvider) {
 		templateUrl: 'templates/video.html'
 	})
 	.when('/signup', {
-		templateUrl: 'templates/signup.html'
+		templateUrl: 'templates/signup.html',
 		controller: 'SignupController'
 	})
 	.when('/login', {
