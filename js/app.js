@@ -17,6 +17,7 @@ angular.module('BandApp').config(function($routeProvider) {
 	})
 	.when('/signup', {
 		templateUrl: 'templates/signup.html'
+		controller: 'SignupController'
 	})
 	.when('/login', {
 		templateUrl: 'templates/login.html'
