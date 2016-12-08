@@ -17,6 +17,7 @@ angular.module('BandApp').config(function($routeProvider) {
 	})
 	.when('/disco', {
 		templateUrl: 'templates/disco.html',
+		controller: 'namesCtrl'
 	})
 	.when('/tour', {
 		templateUrl: 'templates/tour',
