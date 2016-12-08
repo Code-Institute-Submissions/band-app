@@ -18,6 +18,7 @@ angular.module('RouteControllers', [])
 			console.log($scope.signupUser.username + " " + $scope.signupUser.password + " " + $scope.signupUser.email);
 		}
 
+
 	.controller('namesCtrl', function($scope) {
     $scope.names = [
         'Jani',
@@ -29,7 +30,7 @@ angular.module('RouteControllers', [])
         'Birgit',
         'Mary',
         'Kai'
-    ]
+    ];
 	})
 
 	});
