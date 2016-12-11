@@ -1,8 +1,8 @@
 angular.module('RouteControllers', [])
 	
-	.controller('HomeController', function($scope) {
-		$scope.title = ($scope.signupUser.username);
-	})
+/*	.controller('HomeController', function($scope) {
+		$scope.title = "Welcome $scope.signupUser.username";
+	})*/
 
 	.controller('SignupController', function($scope) {
 
@@ -16,10 +16,11 @@ angular.module('RouteControllers', [])
 			}
 
 			console.log($scope.signupUser.username + " " + $scope.signupUser.password + " " + $scope.signupUser.email);
+			alert("Hello" + " " + $scope.signupUser.username + ", " + "welcome to Liz Seaver's Unofficial Fansite");
 		}
 
 
-	.controller('namesCtrl', function($scope) {
+/*	.controller('namesCtrl', function($scope) {
     $scope.names = [
         'Jani',
         'Carl',
@@ -31,6 +32,6 @@ angular.module('RouteControllers', [])
         'Mary',
         'Kai'
     ];
-	})
+	})*/
 
 	});
