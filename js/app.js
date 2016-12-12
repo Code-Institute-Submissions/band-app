@@ -4,7 +4,7 @@ angular.module('BandApp').config(function($routeProvider) {
 
 	$routeProvider.when('/', {
 		templateUrl: 'templates/home.html',
-		controller: 'HomeController'
+		/*controller: 'HomeController'*/
 	})
 	.when('/theband', {
 		templateUrl: 'templates/theband.html',

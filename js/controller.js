@@ -13,11 +13,12 @@ angular.module('RouteControllers', [])
 				$scope.signupUser.username = $scope.user.username;
 				$scope.signupUser.password = $scope.user.password;
 				$scope.signupUser.email = $scope.user.email;
+				
 			}
 
 			console.log($scope.signupUser.username + " " + $scope.signupUser.password + " " + $scope.signupUser.email);
 			alert("Hello" + " " + $scope.signupUser.username + ", " + "welcome to Liz Seaver's Unofficial Fansite");
-		}
+		};
 
 
 /*	.controller('namesCtrl', function($scope) {
