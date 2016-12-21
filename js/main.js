@@ -4,4 +4,6 @@ function main() {
   
 }
 
+main();
+
 $(document).ready(main);

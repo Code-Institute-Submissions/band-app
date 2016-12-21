@@ -20,19 +20,19 @@ angular.module('RouteControllers', [])
 			alert("Hello" + " " + $scope.signupUser.username + ", " + "welcome to Liz Seaver's Unofficial Fansite");
 		};
 
-
-/*	.controller('namesCtrl', function($scope) {
-    $scope.names = [
-        'Jani',
-        'Carl',
-        'Margareth',
-        'Hege',
-        'Joe',
-        'Gustav',
-        'Birgit',
-        'Mary',
-        'Kai'
-    ];
-	})*/
+	})
+	.controller('namesCtrl', function($scope) {
+	    $scope.names = [
+	        'Jani',
+	        'Carl',
+	        'Margareth',
+	        'Hege',
+	        'Joe',
+	        'Gustav',
+	        'Birgit',
+	        'Mary',
+	        'Kai'
+	    ];
+	
 
 	});
