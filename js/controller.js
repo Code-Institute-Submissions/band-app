@@ -23,15 +23,29 @@ angular.module('RouteControllers', [])
 	})
 	.controller('namesCtrl', function($scope) {
 	    $scope.names = [
-	        'Jani',
-	        'Carl',
-	        'Margareth',
-	        'Hege',
-	        'Joe',
-	        'Gustav',
-	        'Birgit',
-	        'Mary',
-	        'Kai'
+	        'What a surprise',
+			'Break It Down',
+			'Hide Away',
+			'Saving My Love',
+			'Hint Of Justice',
+			'Let In The Silence',
+			'Take Me By The Hand',
+			'Dark Skies',
+			'No Ones Better Than You',
+			'Beauty Queen',
+			'Inside Out',
+			'I Knew',
+			'Cant Help Myself',
+			'The Voice Inside',
+			'In Between You and Me',
+			'Down in Tears',
+			'Exposed',
+			'Run til Its Gone',
+			'If I Lost It All',
+			'The One',
+			'Hold On',
+			'Little Song',
+
 	    ];
 	
 
