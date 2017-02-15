@@ -6,4 +6,8 @@ function main() {
 
 main();
 
-$(document).ready(main);
+$(document).ready(function(){
+    $(".li").click(function(){
+        $(".collapse").collapse('hide');
+    });
+}); //trying to get navbar collapse away after select on mobile but this not working
