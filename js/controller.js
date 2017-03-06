@@ -23,7 +23,10 @@ angular.module('RouteControllers', [])
 	})
 	.controller('namesCtrl', function($scope) {
 	    $scope.names = [
-	        'What a surprise',
+	        'What a surprise' <audio controls>
+			<source src="../audio/AcousticGuitar1.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+			</audio>,
 			'Break It Down',
 			'Hide Away',
 			'Saving My Love',
