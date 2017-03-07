@@ -27,13 +27,13 @@ angular.module('RouteControllers', [])
 	        'url': 'audio/AcousticGuitar1.mp3'
 	    },
 	    {'name':'A Darker Heart',
-	    'url':'../band-app/audio/ADarkerHeart.mp3'
+	    'url':'audio/ADarkerHeart.mp3'
 		},
 			{'name':'Autumn Sunset',
-			'url': '../band-app/audio/AutumnSunset.mp3'
+			'url': 'audio/AutumnSunset.mp3'
 		},
 			{'name':'Cold Morning',
-			'url':'../band-app/audio/ColdMorning.mp3'
+			'url':'audio/ColdMorning.mp3'
 		}
 			// 'Hint Of Justice',
 			// 'Let In The Silence',
