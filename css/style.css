@@ -93,11 +93,7 @@ li {
 }
 
 #autsunset {
-  background: url("../img/autsunset.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url("../img/autsunset.jpg");
 }
 
 #coldmorn {
