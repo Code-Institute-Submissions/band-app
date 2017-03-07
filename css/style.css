@@ -114,8 +114,8 @@ li {
 }
 
 div.col-sm-3 {
-  height: 200px;
-  width: 200px;
+  height: 100%;
+  width: 100%;
 }
 
 .supporting-4 {
