@@ -1,18 +1,18 @@
-function main() {
-  $('.bio1').hide();
-  $('.bio1').fadeIn(5000);
+// function main() {
+//   $('.bio1').hide();
+//   $('.bio1').fadeIn(5000);
   
-}
+// }
 
-main();
+// main();
 
-$(document).ready(function(){
-    $(".li").click(function(){
-        $(".collapse").collapse('hide');
-    });
+// $(document).ready(function(){
+//     $(".li").click(function(){
+//         $(".collapse").collapse('hide');
+//     });
 
 $(document).ready(function() {
     $('.carousel').carousel({
-      interval: 1200
+      interval: 600
     })
   });
