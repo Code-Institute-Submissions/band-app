@@ -88,6 +88,10 @@ li {
   background-image: url("../img/eclectic.jpg");
 }
 
+#autsunset {
+  background-image: url("../img/autsunset.jpg");
+}
+
 #banner {
 	height: 10em;
 	width: 51%;
@@ -107,6 +111,11 @@ li {
 
 .bioText {
 	float: right;
+}
+
+div.col-sm-3 {
+  height: 200px;
+  width: 200px;
 }
 
 .supporting-4 {
