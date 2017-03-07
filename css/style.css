@@ -101,7 +101,7 @@ li {
 }
 
 #coldmorn {
-  background: url("../img/coldmorn.jpg") no-repeat center center fixed; 
+  background: url("../img/coldmorn.jpg") fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -111,7 +111,7 @@ li {
 }
 
 #darkheart {
-  background: url("../img/darkheart.jpg") no-repeat center center fixed;
+  background: url("../img/darkheart.jpg") fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -437,9 +437,14 @@ body {
      }
 
      #banner {
-	height: 10em;
-	width: 100%;
-	/*margin-top: 1em;
-	margin-bottom: 1.5em;*/
-	}
+	     height: 10em;
+	     width: 100%;
+	     /*margin-top: 1em;
+	     margin-bottom: 1.5em;*/
+	   }
+
+      div.col-sm-3 {
+      height: 19em;
+      width: 100%;
+    }
 }
