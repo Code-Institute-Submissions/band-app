@@ -85,11 +85,27 @@ li {
 }
 
 #eclectic {
-  background-image: url("../img/eclectic.jpg");
+  background-image: url("../img/eclectic.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #autsunset {
-  background-image: url("../img/autsunset.jpg");
+  background-image: url("../img/autsunset.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#coldmorn {
+  background-image: url("../img/coldmorn.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #banner {
