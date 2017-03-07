@@ -106,6 +106,8 @@ li {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 #darkheart {
@@ -114,6 +116,8 @@ li {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 #banner {
