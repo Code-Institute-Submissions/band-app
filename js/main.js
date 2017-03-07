@@ -12,7 +12,7 @@
 //     });
 
 $(document).ready(function() {
-    $('.carousel').carousel({
-      interval: 600
+    $('#MyCarousel').carousel({
+      interval: 600, cycle: true
     })
   });
