@@ -7,10 +7,10 @@
 <ul>
   <li ng-repeat="x in names | filter:test">
   
-    <!-- {{ x }} -->
+    {{x.name}}
 
-    <a target="_blank" ng-href="{{x.url}}"><i class="fa fa-play"></i></a>
-              {{x.name}}
+    <a target="_blank" ng-href="{{x.url}}"><i class="fa fa-play">Play Me</i></a>
+              
   </li>
 </ul>
 
