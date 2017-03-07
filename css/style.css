@@ -85,11 +85,7 @@ li {
 }
 
 #eclectic {
-  background: url("../img/eclectic.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url("../img/eclectic.jpg");
 }
 
 #autsunset {
