@@ -24,7 +24,7 @@ angular.module('RouteControllers', [])
 	.controller('namesCtrl', function($scope) {
 	    $scope.names = [
 	        {'name':'Eclectic Acoustic',
-	        'url': '../band-app/audio/AcousticGuitar1.mp3'
+	        'url': 'audio/AcousticGuitar1.mp3'
 	    },
 	    {'name':'A Darker Heart',
 	    'url':'../band-app/audio/ADarkerHeart.mp3'
