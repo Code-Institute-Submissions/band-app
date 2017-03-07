@@ -23,28 +23,36 @@ angular.module('RouteControllers', [])
 	})
 	.controller('namesCtrl', function($scope) {
 	    $scope.names = [
-	        'Eclectic Acoustic',
-			'A Darker Heart',
-			'Autumn Sunset',
-			'Cold Morning',
-			'Hint Of Justice',
-			'Let In The Silence',
-			'Take Me By The Hand',
-			'Dark Skies',
-			'No Ones Better Than You',
-			'Beauty Queen',
-			'Inside Out',
-			'I Knew',
-			'Cant Help Myself',
-			'The Voice Inside',
-			'In Between You and Me',
-			'Down in Tears',
-			'Exposed',
-			'Run til Its Gone',
-			'If I Lost It All',
-			'The One',
-			'Hold On',
-			'Little Song',
+	        {'name':'Eclectic Acoustic',
+	        'url': '../band-app/audio/AcousticGuitar1.mp3'
+	    },
+	    {'name':'A Darker Heart',
+	    'url':'../band-app/audio/ADarkerHeart.mp3'
+		},
+			{'name':'Autumn Sunset',
+			'url': '../band-app/audio/AutumnSunset.mp3'
+		},
+			{'name':'Cold Morning',
+			'url':'../band-app/audio/ColdMorning.mp3'
+		}
+			// 'Hint Of Justice',
+			// 'Let In The Silence',
+			// 'Take Me By The Hand',
+			// 'Dark Skies',
+			// 'No Ones Better Than You',
+			// 'Beauty Queen',
+			// 'Inside Out',
+			// 'I Knew',
+			// 'Cant Help Myself',
+			// 'The Voice Inside',
+			// 'In Between You and Me',
+			// 'Down in Tears',
+			// 'Exposed',
+			// 'Run til Its Gone',
+			// 'If I Lost It All',
+			// 'The One',
+			// 'Hold On',
+			// 'Little Song',
 
 	    ];
 	
