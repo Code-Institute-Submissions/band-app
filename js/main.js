@@ -10,4 +10,9 @@ $(document).ready(function(){
     $(".li").click(function(){
         $(".collapse").collapse('hide');
     });
-}); //trying to get navbar collapse away after select on mobile but this not working
+
+$(document).ready(function() {
+    $('.carousel').carousel({
+      interval: 1200
+    })
+  });
