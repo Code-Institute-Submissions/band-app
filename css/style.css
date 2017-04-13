@@ -109,6 +109,14 @@ li {
   background-size: cover;
 }
 
+#serenity {
+  background: url("../img/serenity.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 #banner {
 	height: 10em;
 	width: 51%;
