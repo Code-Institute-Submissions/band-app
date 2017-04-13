@@ -80,10 +80,10 @@ li {
   padding-right: 40%;
 }
 
-.audio {
+/*.audio {
   margin-top: 50px;
   display: inline-block;
-}
+}*/
 
 #eclectic {
   background: url("../img/eclectic.jpg");
@@ -94,7 +94,11 @@ li {
 }
 
 #coldmorn {
-  background: url("../img/coldmorn.jpg");
+  background: url("../img/coldmorn.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #darkheart {
@@ -122,10 +126,10 @@ li {
 	float: right;
 }
 
-div.col-sm-4 {
+/*div.col-sm-4 {
   height: 19em;
   margin: 5px;
-}
+}*/
 
 .supporting-4 {
   text-align: center;
@@ -268,8 +272,8 @@ div.col-sm-4 {
 	     margin-bottom: 1.5em;*/
 	   }
 
-      div.col-sm-4 {
+      /*div.col-sm-4 {
       height: 19em;
       width: 100%;
-    }
+    }*/
 }
