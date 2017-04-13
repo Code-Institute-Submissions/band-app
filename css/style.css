@@ -122,10 +122,10 @@ li {
 	float: right;
 }
 
-/*div.col-sm-3 {
+div.col-sm-3 {
   height: 19em;
-  width: 25%;
-}*/
+  margin: 5px;
+}
 
 .supporting-4 {
   text-align: center;
