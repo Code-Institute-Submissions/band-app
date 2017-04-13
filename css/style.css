@@ -102,7 +102,7 @@ li {
 }
 
 #darkheart {
-  background: url("../img/darkheart.jpg")no-repeat; 
+  background: url("../img/darkheart.jpg") no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
