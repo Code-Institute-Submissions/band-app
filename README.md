@@ -4,15 +4,15 @@
 
 ### What is this app for?
 
-This is an app for a band with popular 60s pop group The Monkees as the example featured band
+This is an app for singer-songwriter Liz Seaver showcasing her and her music
 
 ### What does it do?
 
-This app will allow followers/fans of the band to register and sign up to an e-mail newsletter and their latest releases.  They will be able to listen to audio clips and view video of the band.  They will also be able to view a calendar of their upcoming tour and be able to contact the Manager to book the band in.  There will be a footer with links to the band's various social media.
+This app will allow followers/fans of the band to register and sign up to an e-mail newsletter and their latest releases.  They will be able to listen to audio clips and view video Liz Seaver.  They will also be able to view a calendar of their upcoming tour and be able to contact the Manager to book the band in.  There will be a footer with links to the band's various social media.
 
 ### How does it work?
 
-This app uses JSON Web Tokens to authenticate users and keep them logged in.  All the data is consumed from an API hosted on Heroku using AngularJS.  The site is styled with Bootstrap.
+This app is built using the AngularJS framework and has html templates for each feature styled using Bootstrap.
 
 ## Features
 
@@ -26,7 +26,7 @@ This app uses JSON Web Tokens to authenticate users and keep them logged in.  Al
 	- Logout
 - Band Based Features
 	- Register for newsletter
-	- Media section with Audio, Video and bios of the Band members with links to Wikipedia
+	- Media section with Audio, Video and bio of Liz Seaver
 	- Table displaying upcoming tour dates
 	- Footer with contact details for bookings and links to various social media
 
