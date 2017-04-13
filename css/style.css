@@ -16,11 +16,9 @@ body {
 	/*margin-top: 3em;*/
 		}
 
-.container {
+/*.container {
 	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-}
+}*/
 
 h1 {
 	color: #5E0545;
@@ -94,7 +92,7 @@ li {
 }
 
 #coldmorn {
-  background: url("../img/coldmorn.jpg") no-repeat center center fixed; 
+  background: url("../img/coldmorn.jpg") no-repeat; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
