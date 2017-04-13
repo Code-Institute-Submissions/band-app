@@ -16,9 +16,10 @@ body {
 	/*margin-top: 3em;*/
 		}
 
-/*.container {
-	width: 100%;
-}*/
+.audio-box {
+  width: 100%;
+  margin: 5px;
+}
 
 h1 {
 	color: #5E0545;
