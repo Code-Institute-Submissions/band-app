@@ -19,6 +19,7 @@ body {
 .audio-box {
   width: 100%;
   margin: 5px;
+  height: 100px;
 }
 
 h1 {
@@ -38,9 +39,9 @@ li {
   list-style: none;
 }
 
-.row {
+/*.row {
   display: inline;
-}
+}*/
 
 .bio1 {
 	text-align: justify;
