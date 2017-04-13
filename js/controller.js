@@ -1,8 +1,4 @@
 angular.module('RouteControllers', [])
-	
-/*	.controller('HomeController', function($scope) {
-		$scope.title = "Welcome $scope.signupUser.username";
-	})*/
 
 	.controller('SignupController', function($scope) {
 
@@ -21,19 +17,20 @@ angular.module('RouteControllers', [])
 		};
 
 	})
+	
 	.controller('namesCtrl', function($scope) {
 	    $scope.names = [
-	        {'name':'Eclectic Acoustic',
-	        'url': 'audio/AcousticGuitar1.mp3'
+        {'name':'Eclectic Acoustic',
+        'url': 'audio/AcousticGuitar1.mp3'
 	    },
 	    {'name':'A Darker Heart',
 	    'url':'audio/ADarkerHeart.mp3'
 		},
-			{'name':'Autumn Sunset',
-			'url': 'audio/AutumnSunset.mp3'
+		{'name':'Autumn Sunset',
+		'url': 'audio/AutumnSunset.mp3'
 		},
-			{'name':'Cold Morning',
-			'url':'audio/ColdMorning.mp3'
+		{'name':'Cold Morning',
+		'url':'audio/ColdMorning.mp3'
 		}
 			// 'Hint Of Justice',
 			// 'Let In The Silence',
