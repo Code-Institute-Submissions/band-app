@@ -112,6 +112,14 @@ li {
   background-size: cover;
 }
 
+#RadioRock {
+  background: url("../img/RadioRock.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 #banner {
 	height: 10em;
 	width: 51%;

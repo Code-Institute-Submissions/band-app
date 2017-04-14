@@ -1,5 +1,5 @@
 angular.module('RouteControllers', [])
-
+	// controller for registration page signup.html
 	.controller('SignupController', function($scope) {
 
 		$scope.signupUser = {};
@@ -34,6 +34,9 @@ angular.module('RouteControllers', [])
 		},
 		{'name':'Serenity',
 		'url':'audio/serenity.mp3'
+		},
+		{'name':'Radio Rock',
+		'url':'audio/RadioRock.mp3'
 		}
 
 	    ];
