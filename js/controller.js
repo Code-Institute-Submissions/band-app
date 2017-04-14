@@ -1,4 +1,5 @@
 angular.module('RouteControllers', [])
+
 	// controller for registration page signup.html
 	.controller('SignupController', function($scope) {
 
@@ -37,7 +38,20 @@ angular.module('RouteControllers', [])
 		},
 		{'name':'Radio Rock',
 		'url':'audio/RadioRock.mp3'
+		},
+		{'name':'Back To The Wood',
+		'url':'audio/BackToTheWood.mp3'
+		},
+		{'name':'Amazing Grace',
+		'url':'audio/AmazingGrace.mp3'
+		},
+		{'name':'Smells Like Grunge',
+		'url':'audio/SmellsLikeGrunge.mp3'
 		}
 
 	    ];
-	});
+	})
+	// controller for home page title
+	.controller('HomeController', function($scope) {
+        $scope.title = "Welcome to Singer-Songwriter Liz Seaver's Angular App!";
+    });
