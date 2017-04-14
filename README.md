@@ -8,7 +8,7 @@ This is an app for singer-songwriter Liz Seaver showcasing her and her music
 
 ### What does it do?
 
-This app will allow followers/fans of the band to register and sign up to an e-mail newsletter and their latest releases.  They will be able to listen to audio clips and view video Liz Seaver.  They will also be able to view a calendar of their upcoming tour and be able to contact the Manager to book the band in.  There will be a footer with links to the band's various social media.
+This app will allow followers/fans of the band to register and sign up to an e-mail newsletter and their latest releases.  They will be able to listen to audio clips and view video of Liz Seaver.  They will also be able to view a calendar of their upcoming tour and be able to contact the Manager to book the band in.  There will be a footer with links to the band's various social media.
 
 ### How does it work?
 
@@ -17,9 +17,6 @@ This app is built using the AngularJS framework and has html templates for each 
 ## Features
 
 ### Existing Features
-- Coming soon!
-
-### Features to be Implemented
 - User Based Features:
 	- Registration
 	- Login
@@ -29,6 +26,9 @@ This app is built using the AngularJS framework and has html templates for each 
 	- Media section with Audio, Video and bio of Liz Seaver
 	- Table displaying upcoming tour dates
 	- Footer with contact details for bookings and links to various social media
+
+### Features to be Implemented
+- Coming Soon!
 
 ## Tech used
 

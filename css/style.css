@@ -4,22 +4,23 @@ html {
 }
 
 body {
+  /*CSS3 gradient background*/
 	text-align: center;
 	background: rgb(240,243,248); /* Old browsers */
-	background: -moz-linear-gradient(top,  rgba(240,243,248,1) 0%, rgba(195,226,235,1) 32%, rgba(161,153,190,1) 72%, rgba(91,41,104,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  rgba(240,243,248,1) 0%,rgba(195,226,235,1) 32%,rgba(161,153,190,1) 72%,rgba(91,41,104,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  rgba(240,243,248,1) 0%,rgba(195,226,235,1) 32%,rgba(161,153,190,1) 72%,rgba(91,41,104,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: -moz-linear-gradient(top,  rgba(240,243,248,1) 0%, rgba(195,226,235,1) 25%, rgba(161,153,190,1) 72%, rgba(91,41,104,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(240,243,248,1) 0%,rgba(195,226,235,1) 25%,rgba(161,153,190,1) 72%,rgba(91,41,104,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(240,243,248,1) 0%,rgba(195,226,235,1) 25%,rgba(161,153,190,1) 72%,rgba(91,41,104,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f3f8', endColorstr='#5b2968',GradientType=0 ); /* IE6-9 */
 	font-family: 'Bitter', serif;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 3em;
+  margin-bottom: 7em; /*leave space for footer*/
 		}
 
-.container {
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
+.audio-box {
+  width: 100%;
+  margin: 5px;
+  height: 200px;
 }
 
 h1 {
@@ -30,18 +31,13 @@ h3 {
 	color: #5E0545;
 }
 
-h3#signupHeader {
-	color: #D796B6;
-	text-align: left;
-}
-
 li {
   list-style: none;
 }
 
-.row {
+/*.row {
   display: inline;
-}
+}*/
 
 .bio1 {
 	text-align: justify;
@@ -74,15 +70,11 @@ li {
 }
 
 .disco {
-  margin-top: 5em;
+  /*position the discography centrally and show lines against background gradient*/
+  margin-top: 7em;
   text-align: left;
-  padding-left: 40%;
-  padding-right: 40%;
-}
-
-.audio {
-  margin-top: 50px;
-  display: inline-block;
+  padding-left: 30%;
+  padding-right: 30%;
 }
 
 #eclectic {
@@ -94,11 +86,35 @@ li {
 }
 
 #coldmorn {
-  background: url("../img/coldmorn.jpg");
+  background: url("../img/coldmorn.jpg") no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #darkheart {
-  background: url("../img/darkheart.jpg");
+  background: url("../img/darkheart.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#serenity {
+  background: url("../img/serenity.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#RadioRock {
+  background: url("../img/RadioRock.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #banner {
@@ -122,14 +138,15 @@ li {
 	float: right;
 }
 
-div.col-sm-3 {
+/*div.col-sm-4 {
   height: 19em;
-  width: 25%;
-}
+  margin: 5px;
+}*/
 
 .supporting-4 {
+  /*background for apple and google download links*/
   text-align: center;
-  background: url(https://s3.amazonaws.com/codecademy-content/projects/bass/feature.jpg) no-repeat center center; 
+  background: url("../img/phone-feature.jpg") no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -191,162 +208,6 @@ div.col-sm-3 {
 .modal-header, .modal-body {
     padding: 40px 50px;
 }
-
-/* styling for share dropdown
-
-.mobile-social-share {
-    background: none repeat scroll 0 0 #EEEEEE;
-    display: block !important;
-    min-height: 70px !important;
-    margin: 50px 0;
-}
-
-
-body {
-    color: #777777;
-    font-family: "Lato","Helvetica Neue","Arial","Helvetica",sans-serif;
-    font-size: 13px;
-    line-height: 19.5px;
-}
-
-
-.mobile-social-share h3 {
-    color: inherit;
-    float: left;
-    font-size: 15px;
-    line-height: 20px;
-    margin: 25px 25px 0 25px;
-}
-
-.share-group {
-    float: right;
-    margin: 18px 25px 0 0;
-}
-
-.btn-group {
-    display: inline-block;
-    font-size: 0;
-    position: relative;
-    vertical-align: middle;
-    white-space: nowrap;
-}
-
-.mobile-social-share ul {
-    float: right;
-    list-style: none outside none;
-    margin: 0;
-    min-width: 61px;
-    padding: 0;
-}
-
-.share {
-    min-width: 17px;
-}
-
-.mobile-social-share li {
-    display: block;
-    font-size: 18px;
-    list-style: none outside none;
-    margin-bottom: 3px;
-    margin-left: 4px;
-    margin-top: 3px;
-}
-
-.btn-share {
-    background-color: #BEBEBE;
-    border-color: #CCCCCC;
-    color: #333333;
-}
-
-.btn-twitter {
-    background-color: #3399CC !important;
-    width: 51px;
-    color:#FFFFFF!important;
-}
-
-.btn-facebook {
-    background-color: #3D5B96 !important;
-    width: 51px;
-    color:#FFFFFF!important;
-}
-
-.btn-facebook {
-    background-color: #3D5B96 !important;
-    width: 51px;
-    color:#FFFFFF!important;
-}
-
-.btn-google {
-    background-color: #DD3F34 !important;
-    width: 51px;
-    color:#FFFFFF!important;
-}
-
-.btn-linkedin {
-    background-color: #1884BB !important;
-    width: 51px;
-    color:#FFFFFF!important;
-}
-
-.btn-pinterest {
-    background-color: #CC1E2D !important;
-    width: 51px;
-    color:#FFFFFF!important;
-}
-
-.btn-mail {
-    background-color: #FFC90E !important;
-    width: 51px;
-    color:#FFFFFF!important;
-}
-
-.caret {
-    border-left: 4px solid rgba(0, 0, 0, 0);
-    border-right: 4px solid rgba(0, 0, 0, 0);
-    border-top: 4px solid;
-    display: inline-block;
-    height: 0;
-    margin-left: 2px;
-    vertical-align: middle;
-    width: 0;
-}
-
-#socialShare {
-    max-width:59px;
-    margin-bottom:18px;
-}
-
-#socialShare > a{
-    padding: 6px 10px 6px 10px;
-}
-
-@media (max-width : 320px) {
-    #socialHolder{
-        padding-left:5px;
-        padding-right:5px;
-    }
-    
-    .mobile-social-share h3 {
-        margin-left: 0;
-        margin-right: 0;
-    }
-    
-    #socialShare{
-        margin-left:5px;
-        margin-right:5px;
-    }
-    
-    .mobile-social-share h3 {
-        font-size: 15px;
-    }
-}
-
-@media (max-width : 238px) {
-    .mobile-social-share h3 {
-        font-size: 12px;
-    }
-}
-*/
 
 
 .social-icon {
@@ -420,12 +281,5 @@ body {
      #banner {
 	     height: 10em;
 	     width: 100%;
-	     /*margin-top: 1em;
-	     margin-bottom: 1.5em;*/
 	   }
-
-      div.col-sm-3 {
-      height: 19em;
-      width: 100%;
-    }
 }
