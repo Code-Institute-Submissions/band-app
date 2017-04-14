@@ -20,7 +20,7 @@ body {
 .audio-box {
   width: 100%;
   margin: 5px;
-  height: 200px;
+  height: 200px; /*open up the image background for individual audio track boxes*/
 }
 
 h1 {
@@ -48,14 +48,16 @@ li {
 	text-align: left;
 }
 
+/*custom styling for home page bootstrap carousel for large viewport width*/
+
 #myCarousel {
-	width: 100%;
+	width: 100%; 
 }
 
 .carousel-inner img {
     -webkit-filter: grayscale(90%);
     filter: grayscale(90%); /* make all photos black and white */ 
-    width: 80%; /* Set width to 100% */
+    width: 80%;
     height: 20em;
     margin: auto;
 }
@@ -69,6 +71,13 @@ li {
     color: #fff !important;
 }
 
+#london-poster {
+  color: #5E0545; /*to show text against white background*/
+}
+
+
+/*end carousel custom*/
+
 .disco {
   /*position the discography centrally and show lines against background gradient*/
   margin-top: 7em;
@@ -76,6 +85,10 @@ li {
   padding-left: 30%;
   padding-right: 30%;
 }
+
+/**/
+/*background images for individual audio tracks*/
+
 
 #eclectic {
   background: url("../img/eclectic.jpg");
@@ -117,10 +130,13 @@ li {
   background-size: cover;
 }
 
+/*end audio background images*/
+/**/
+
 #banner {
-	height: 10em;
-	width: 51%;
-	margin-top: 1em;
+  /*sizing for liz seaver home page top banner*/
+	height: 12em;
+	width: 90%;
 	margin-bottom: 1em;
 }
 
@@ -137,11 +153,6 @@ li {
 .bioText {
 	float: right;
 }
-
-/*div.col-sm-4 {
-  height: 19em;
-  margin: 5px;
-}*/
 
 .supporting-4 {
   /*background for apple and google download links*/
@@ -210,6 +221,7 @@ li {
 }
 
 
+/* styling for social media footer icons */
 .social-icon {
   list-style: none;
   padding: 5px;
@@ -250,9 +262,9 @@ li {
   opacity: .9;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
     .carousel-caption {
-        display: none; /* Hide the carousel text when the screen is less than 900 pixels wide */
+        display: none; /* Hide the carousel text when the screen is less than 768 pixels wide */
     }
     .carousel-inner > .item > img{
        width: 80%;
@@ -260,26 +272,7 @@ li {
      }
 
      #banner {
-	height: 10em;
-	width: 100%;
-	/*margin-top: 1em;
-	margin-bottom: 1.5em;*/
+    	height: 10em;
+    	width: 100%;
 	}
-}
-
-
-
-@media (max-width: 600px) {
-    .carousel-caption {
-        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-    }
-    .carousel-inner > .item > img{
-       width: 100%;
-       height: 25em;
-     }
-
-     #banner {
-	     height: 10em;
-	     width: 100%;
-	   }
 }
