@@ -4,16 +4,17 @@ html {
 }
 
 body {
+  /*CSS3 gradient background*/
 	text-align: center;
 	background: rgb(240,243,248); /* Old browsers */
-	background: -moz-linear-gradient(top,  rgba(240,243,248,1) 0%, rgba(195,226,235,1) 32%, rgba(161,153,190,1) 72%, rgba(91,41,104,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  rgba(240,243,248,1) 0%,rgba(195,226,235,1) 32%,rgba(161,153,190,1) 72%,rgba(91,41,104,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  rgba(240,243,248,1) 0%,rgba(195,226,235,1) 32%,rgba(161,153,190,1) 72%,rgba(91,41,104,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: -moz-linear-gradient(top,  rgba(240,243,248,1) 0%, rgba(195,226,235,1) 25%, rgba(161,153,190,1) 72%, rgba(91,41,104,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(240,243,248,1) 0%,rgba(195,226,235,1) 25%,rgba(161,153,190,1) 72%,rgba(91,41,104,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(240,243,248,1) 0%,rgba(195,226,235,1) 25%,rgba(161,153,190,1) 72%,rgba(91,41,104,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f3f8', endColorstr='#5b2968',GradientType=0 ); /* IE6-9 */
 	font-family: 'Bitter', serif;
 	margin-left: auto;
 	margin-right: auto;
-	/*margin-top: 3em;*/
+  margin-bottom: 7em; /*leave space for footer*/
 		}
 
 .audio-box {
@@ -74,10 +75,11 @@ li {
 }
 
 .disco {
-  margin-top: 5em;
+  /*position the discography centrally and show lines against background gradient*/
+  margin-top: 7em;
   text-align: left;
-  padding-left: 40%;
-  padding-right: 40%;
+  padding-left: 30%;
+  padding-right: 30%;
 }
 
 #eclectic {
@@ -147,8 +149,9 @@ li {
 }*/
 
 .supporting-4 {
+  /*background for apple and google download links*/
   text-align: center;
-  background: url(https://s3.amazonaws.com/codecademy-content/projects/bass/feature.jpg) no-repeat center center; 
+  background: url("../img/phone-feature.jpg") no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
