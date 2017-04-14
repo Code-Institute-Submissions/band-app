@@ -17,7 +17,7 @@ angular.module('RouteControllers', [])
 		};
 
 	})
-	
+	// controller for disco.html music search
 	.controller('namesCtrl', function($scope) {
 	    $scope.names = [
         {'name':'Eclectic Acoustic',
@@ -31,27 +31,10 @@ angular.module('RouteControllers', [])
 		},
 		{'name':'Cold Morning',
 		'url':'audio/ColdMorning.mp3'
+		},
+		{'name':'Serenity',
+		'url':'audio/serenity.mp3'
 		}
-			// 'Hint Of Justice',
-			// 'Let In The Silence',
-			// 'Take Me By The Hand',
-			// 'Dark Skies',
-			// 'No Ones Better Than You',
-			// 'Beauty Queen',
-			// 'Inside Out',
-			// 'I Knew',
-			// 'Cant Help Myself',
-			// 'The Voice Inside',
-			// 'In Between You and Me',
-			// 'Down in Tears',
-			// 'Exposed',
-			// 'Run til Its Gone',
-			// 'If I Lost It All',
-			// 'The One',
-			// 'Hold On',
-			// 'Little Song',
 
 	    ];
-	
-
 	});

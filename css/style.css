@@ -80,11 +80,6 @@ li {
   padding-right: 40%;
 }
 
-/*.audio {
-  margin-top: 50px;
-  display: inline-block;
-}*/
-
 #eclectic {
   background: url("../img/eclectic.jpg");
 }
@@ -280,12 +275,5 @@ li {
      #banner {
 	     height: 10em;
 	     width: 100%;
-	     /*margin-top: 1em;
-	     margin-bottom: 1.5em;*/
 	   }
-
-      /*div.col-sm-4 {
-      height: 19em;
-      width: 100%;
-    }*/
 }
