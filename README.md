@@ -4,11 +4,11 @@
 
 ### What is this app for?
 
-This is an app for singer-songwriter Liz Seaver showcasing her and her music
+This is an app for singer-songwriter Liz Seaver showcasing her and her music (semi-fictional)
 
 ### What does it do?
 
-This app will allow followers/fans of the band to register and sign up to an e-mail newsletter and their latest releases.  They will be able to listen to audio clips and view video of Liz Seaver.  They will also be able to view a calendar of their upcoming tour and be able to contact the Manager to book the band in.  There will be a footer with links to the band's various social media.
+This app is a semi-fictional website show-casing the singer-songwriter Liz Seaver.  Navigation is via the Navigation bar at the top.  It containes a landing page with a Carousel Slideshow with images of Liz.  It has a Media section where users can listen to audio clips and view video of Liz Seaver.  There is a biography section.  There is a 'Jukebox' section where users can search for songs and play or download the songs.  The 'Tour' section contains a tour dates table and modal popup form to buy tickets (display purposes only).  Bookings/Contact section with a form to get in touch and contact details.  Also, a Sign Up form and Login Form.  There is a footer with links to various social media.
 
 ### How does it work?
 
@@ -17,24 +17,22 @@ This app is built using the AngularJS framework and has html templates for each 
 ## Features
 
 ### Existing Features
-- User Based Features:
-	- Registration
+- User Based Forms:
+	- Buy Tickets Modal Popup
+	- Contact
+	- Registration/Sign up
 	- Login
-	- Logout
 - Band Based Features
-	- Register for newsletter
-	- Media section with Audio, Video and bio of Liz Seaver
-	- Table displaying upcoming tour dates
-	- Footer with contact details for bookings and links to various social media
-
-### Features to be Implemented
-- Coming Soon!
+	- Media section with Audio and Video
+	- Bio of Liz Seaver
+	- Jukebox with audio clips and search function
+	- Footer with links to various social media
 
 ## Tech used
 
 ### Some of the tech used includes:
 - [AngularJS](https://angularjs.org/)
-	- We use **AngularJS** to handle page routing, make calls to the REST API and build custom directives
+	- We use **AngularJS** to handle page routing, directives, form validation, filter and search
 - [Bootstrap](http://getbootstrap.com/)
 	- We use **Bootstrap** to give our project a simple, responsive layout
 - [npm](https://www.npmjs.com/)
