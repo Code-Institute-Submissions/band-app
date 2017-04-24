@@ -40,6 +40,9 @@ This app is built using the AngularJS framework and has html templates for each 
 - [bower](https://bower.io/)
 	- **bower** is used to manage the installation of our libraries and frameworks
 
+## Testing
+- Extensive in-browser testing was performed throughout the development of this project
+
 ## Contributing
 
 ### Getting the code up and running
