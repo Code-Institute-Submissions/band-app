@@ -1,10 +1,13 @@
-<!--
+
 <div>
 	<h1>{{title}}</h1>
-</div> -->
+</div>
+
+<!-- JS workaround to overcome Bootstrap / Angular conflicts to kickstart Carousel -->
 <script type="text/javascript">// <![CDATA[
 var $ = jQuery.noConflict(); $(document).ready(function()  { $('#myCarousel').carousel({ interval: 3000, cycle: true }); });
 // ]]></script>
+
 <div class="container">
 	<img id="banner" src="img/album_banner1.jpg" alt="Liz Seaver Banner">
 </div>
@@ -25,23 +28,19 @@ var $ = jQuery.noConflict(); $(document).ready(function()  { $('#myCarousel').ca
 
         <div class="carousel-caption">
           <h3>New York</h3>
-          <p>The atmosphere in New York is lorem ipsum.</p>
+          <p>The atmosphere in New York is electric.</p>
         </div>      
       </div>
 
       <div class="item">
-        <img src="img/bewleys_poster.jpg" alt="London">
-        <div class="carousel-caption">
-          <h3>London</h3>
-          <p>The UK capital always brings a good crowd.</p>
-        </div>      
+        <img src="img/bewleys_poster.jpg" alt="London"> <!-- no caption as poster self-explanatory -->
       </div>
     
       <div class="item">
         <img src="img/palooz.jpg" alt="Dublin">
         <div class="carousel-caption">
           <h3>Dublin</h3>
-          <p>Even though the traffic was a mess, we had the best time playing at Lapalooza!</p>
+          <p>We had the best time at Lapalooza!</p>
         </div>      
       </div>
     </div>
